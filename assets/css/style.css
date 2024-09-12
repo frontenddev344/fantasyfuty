@@ -327,7 +327,7 @@ h2.section-heading {
 
 /* How We Compare CSS Start */
 .how-we-compare-section {
-    background-color: #def9fb;
+    background-color: #cfc1f1;
 }
 
 .how-we-compare-cards {
@@ -561,7 +561,7 @@ input.pages-newsletter-input {
 
 /* Disclaimer Section CSS Start */
 .disclaimer{
-    background-color: #def9fb;
+  background-color: #cfc1f1;
 }
 .disclaimer-wrapper {
     max-width: 1150px;
