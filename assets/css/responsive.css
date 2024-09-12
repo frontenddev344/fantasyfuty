@@ -1,9 +1,73 @@
 @media screen and (max-width:1400px) {}
 
 
-@media screen and (max-width:1200px) {}
+@media screen and (max-width:1200px) {
+    .home-page-category-cards {
+        height: 320px;
+    }
+    .how-we-compare-cards {
+        min-height: 265px;
+    }
+}
 
-@media screen and (max-width:991px) {}
+@media screen and (max-width:991px) {
+    .banner-image {
+        height: 500px;
+    }
+
+    .banner-text h1 {
+        font-size: 60px;
+    }
+
+    .banner-text h3 {
+        font-size: 30px;
+        max-width: 600px;
+    }
+
+    .pages-intro-text-wrapper p {
+        font-size: 15px;
+    }
+
+    .home-page-category-cards {
+        height: 330px;
+    }
+
+    .how-we-compare-cards-wrapper>p {
+        font-size: 15px;
+    }
+
+    .how-we-compare-content h4 {
+        font-size: 23px;
+    }
+
+    .how-we-compare-content p {
+        font-size: 15px;
+    }
+    .pages-newsletter-wrapper h3 {
+        max-width: 655px;
+    }
+
+    input.pages-newsletter-input {
+        width: 45%;
+        padding: 12px 25px;
+    }
+
+    .pages-newsletter-submit-button {
+        padding: 12px 25px;
+    }
+    .accordion-button {
+        font-size: 15px;
+    }
+    .accordion-body {
+        font-size: 15px;
+    }
+    .disclaimer-wrapper h3 {
+        font-size: 28px;
+    }
+    .disclaimer-wrapper p {
+        font-size: 15px;
+    }
+}
 
 @media screen and (max-width:767px) {
     .main-navbar {
@@ -47,12 +111,188 @@
         z-index: 55;
     }
 
+    .banner-image {
+        height: 450px;
+    }
 
+    .banner-text h1 {
+        font-size: 55px;
+    }
 
+    .banner-text h3 {
+        font-size: 28px;
+        max-width: 450px;
+    }
+
+    .home-page-category-cards {
+        height: 320px;
+    }
+
+    .how-we-compare-icons img {
+        height: 60px;
+        width: 60px;
+    }
+    .how-we-compare-cards {
+        min-height: 305px;
+    }
+    .pages-newsletter-wrapper h3 {
+        max-width: 510px;
+    }
+
+    input.pages-newsletter-input {
+        width: 45%;
+        font-size: 15px;
+        padding: 11px 25px;
+    }
+
+    .pages-newsletter-submit-button {
+        padding: 11px 25px;
+        font-size: 15px;
+    }
+    .accordion-button {
+        font-size: 14px;
+    }
+    .accordion-body {
+        font-size: 14px;
+    }
+    .disclaimer-wrapper h3 {
+        font-size: 26px;
+    }
 
 
 }
 
-@media screen and (max-width:575px) {}
+@media screen and (max-width:575px) {
+    .banner-image {
+        height: 370px;
+    }
 
-@media screen and (max-width:480px) {}
+    .banner-text h1 {
+        font-size: 45px;
+    }
+
+    .banner-text h3 {
+        font-size: 25px;
+        max-width: 400px;
+    }
+
+    .pages-intro-text-wrapper p {
+        font-size: 14px;
+    }
+
+    .home-page-category-cards {
+        height: 280px;
+    }
+
+    .how-we-compare-cards-wrapper>p {
+        font-size: 14px;
+    }
+
+    .how-we-compare-icons img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .how-we-compare-content h4 {
+        font-size: 21px;
+    }
+
+    .how-we-compare-content p {
+        font-size: 14px;
+    }
+
+    .how-we-compare-cards {
+        min-height: 0;
+    }
+    .pages-newsletter-wrapper h3 {
+        font-size: 23px;
+        max-width: 450px;
+        margin: 0 auto;
+    }
+    
+    input.pages-newsletter-input {
+        width: 80%;
+        font-size: 15px;
+        padding: 10px 15px;
+        border-radius: 0px;
+    }
+
+    .pages-newsletter-submit-button {
+        padding: 10px 40px;
+        font-size: 14px;
+        border-radius: 0px;
+        margin-top: 10px;
+    }
+    .accordion-button {
+        font-size: 13px;
+    }
+    .accordion-body {
+        font-size: 13px;
+    }
+    .disclaimer-wrapper {
+        padding: 0px 5px;
+    }
+    .disclaimer-wrapper h3 {
+        font-size: 24px;
+    }
+    .disclaimer-wrapper p {
+        font-size: 14px;
+    }
+
+
+}
+
+@media screen and (max-width:480px) {
+    .banner-image {
+        height: 300px;
+    }
+
+    .banner-text h1 {
+        font-size: 35px;
+    }
+
+    .banner-text h3 {
+        font-size: 18px;
+        max-width: 300px;
+    }
+
+    .pages-intro-text-wrapper {
+        padding: 0 10px;
+    }
+
+    .home-page-category-cards {
+        height: 250px;
+    }
+
+    h2.section-heading {
+        font-size: 26px;
+    }
+
+    .how-we-compare-icons img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .how-we-compare-content h4 {
+        font-size: 19px;
+    }
+    .pages-newsletter-wrapper {
+        padding: 10px 0;
+    }
+    .pages-newsletter-wrapper h3 {
+        font-size: 17px;
+        padding: 0;
+    }
+    input.pages-newsletter-input {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .pages-newsletter-submit-button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+ 
+
+
+}
