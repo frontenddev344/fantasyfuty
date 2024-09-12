@@ -845,7 +845,7 @@ margin-top: 15px;
 }
 
 .butn.play-now-btn:hover{
-    box-shadow: #00b3c1 0px 7px 29px 0px;
+    box-shadow: #00b3c1 0px 7px 15px 0px;
     background-color: #fff;
     color: #00b3c1;
 }
