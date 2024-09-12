@@ -229,7 +229,7 @@ h2.section-heading {
     text-transform: capitalize;
     margin: 15px auto;
 }
-  
+
 /* Banner Section  CSS End */
 
 
@@ -238,10 +238,11 @@ h2.section-heading {
     background-color: #19284f;
     background-color: #658cf6;
 }
+
 .pages-intro-text-wrapper {
     max-width: 1150px;
     margin: 0 auto;
-    padding:0 20px;
+    padding: 0 20px;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -256,9 +257,9 @@ h2.section-heading {
 /* Home Page Intro Text CSS End */
 
 /* Home Page Category Cards CSS Start */
- .home-page-category-cards-wrapper .row{
+.home-page-category-cards-wrapper .row {
     overflow: hidden;
-} 
+}
 
 .home-page-category-cards {
     height: 400px;
@@ -268,7 +269,7 @@ h2.section-heading {
 
 .home-page-category-cards:hover {
     transform: translateY(-5px);
-    box-shadow: #658cf6 0px 7px 10px,#658cf6 0px 7px 12px;
+    box-shadow: #658cf6 0px 7px 10px, #658cf6 0px 7px 12px;
 }
 
 .home-page-category-cards-image {
@@ -560,15 +561,17 @@ input.pages-newsletter-input {
     margin: 15px 0;
     font-weight: 500;
 }
+
 .disclaimer-wrapper h4 {
     font-size: 20px;
-    padding:15px;
+    padding: 15px;
     display: inline-block;
     border-radius: 10px;
     font-weight: 600;
     box-shadow: #658cf6 0px 3px 6px;
-    margin: 15px 0; 
+    margin: 15px 0;
 }
+
 /* Disclaimer Section CSS End */
 
 /* Footer CSS Start */
@@ -614,7 +617,7 @@ input.pages-newsletter-input {
     width: 20%;
 }
 
-.footer-items{
+.footer-items {
     width: 30%;
 }
 
@@ -736,11 +739,14 @@ input.pages-newsletter-input {
     background-color: #da1090;
     box-shadow: #fff 0px 2px 4px;
 }
+
 /* Social Icons CSS End */
 
 
 /* Pages CSS Start */
-.pages-banner-image{
+
+/* Pages Banner CSS Start */
+.pages-banner-image {
     height: 520px;
 }
 
@@ -752,5 +758,101 @@ input.pages-newsletter-input {
     font-size: 25px;
 }
 
+/* Pages Banner CSS End */
 
+/* Pages Cards CSS Start */
+.pages-cards-section {
+    background-color: rgba(0 0 0/60%);
+    isolation: isolate;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.pages-cards {
+    background-color: #d7e0f9;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+    transition: 0.3s all ease-in-out;
+}
+.pages-cards:hover{
+    box-shadow: #00b3c1 0px 10px 15px;  
+    transform: translateY(-5px);
+}
+
+.pages-cards-wrapper h2 {
+    color: #fff;
+}
+.cards-image-text{
+    position: relative;
+}
+.cards-image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.cards-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cards-img-text {
+    position: absolute;
+    bottom: 5%;
+    background: #fff;
+    left: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #00b3c1;
+}
+.cards-img-text h3{
+    font-size: 24px;
+    font-weight: 600    ;
+}
+.cards-text ul li{
+list-style-type: disc;
+margin-left: 16px;
+font-weight: 500;
+padding-right:10px;
+}
+.cards-pro-text {
+    border-right: 3px solid #658cf6;
+}
+.cards-text h3{
+    margin-bottom: 10px;
+}
+.butn {
+    display: inline-block;
+    background: #00b3c1;
+    padding: 13px 25px;
+    font-size: 16px;
+    color: #fff;
+    outline: none;
+    margin-left: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    border: 1px solid transparent;
+    transition: 0.4s all ease-in-out;
+    line-height: 20px;
+    border-radius:5px
+}
+.butn.play-now-btn{
+margin-top: 15px;
+}
+
+.butn.play-now-btn:hover{
+    box-shadow: #00b3c1 0px 7px 29px 0px;
+    background-color: #fff;
+    color: #00b3c1;
+}
+
+#soccer {
+    background-image: url("../images/soccer-cards-bg.jpg");
+}
+
+/* Pages Cards CSS End */
 /* Pages CSS End */
