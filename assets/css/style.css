@@ -77,7 +77,9 @@ img {
 }
 
 /* colors
-#ca5cdd */
+#ca5cdd 
+#280B70
+*/
 
 /* Global CSS End */
 
@@ -99,6 +101,7 @@ img {
     z-index: 9999;
     background-color: #19284f;
     background-color: #658cf6;
+   background-color: #280B70;
     transition: all 0.3s ease-in-out;
 }
 
@@ -237,6 +240,7 @@ h2.section-heading {
 .pages-intro-text-section {
     background-color: #19284f;
     background-color: #658cf6;
+    background-color: #280B70;
 }
 
 .pages-intro-text-wrapper {
@@ -326,6 +330,7 @@ h2.section-heading {
 .how-we-compare-cards {
     padding: 20px;
     background: #658cf6;
+    background:#280B70;
     box-shadow: #fff 0px 6px 15px;
     background-image: linear-gradient(to left,
             transparent,
@@ -348,11 +353,11 @@ h2.section-heading {
 }
 
 .how-we-compare-cards:hover .how-we-compare-content h4 {
-    color: #658cf6;
+    color: #280B70;
 }
 
 .how-we-compare-cards:hover .how-we-compare-content p {
-    color: #658cf6;
+    color: #280B70;
 }
 
 .how-we-compare-cards-wrapper>p {
