@@ -305,10 +305,11 @@ h2.section-heading {
 
 /* How We Compare CSS Start */
 .how-we-compare-section{
-    background-color: #19284f;
+    background-color: #e1e5ef;
 }
 .why-choose-us-cards {
     padding: 20px;
+    background:#19284f;
     box-shadow: #fff 0px 6px 15px;
     background-image: linear-gradient(to left,
             transparent,
@@ -319,25 +320,29 @@ h2.section-heading {
     transition: all .3s ease-in;
     border-radius: 10px;
     overflow: hidden;
-    min-height: 210px;
+    min-height: 230px;
+    border: 1px solid #19284f;
 }
 
 .why-choose-us-cards:hover {
     background-position: 0 0;
     box-shadow: #fff 0px 6px 15px;
-    color: #000;
+    
 }
 .why-choose-us-cards:hover .why-choose-us-content h4{
-    color:#19284f
+    color:#19284f;
 }
 .why-choose-us-cards:hover .why-choose-us-content p{
-    color:#19284f
+    color:#19284f;
 }
+/* .why-choose-us-cards:hover img{
+    filter: brightness(1) invert(1);
+} */
 .why-choose-us-cards-wrapper h2 {
-    color: #fff;
+    color:#19284f;
 }
 .why-choose-us-cards-wrapper>p {
-    color: #fff;
+    color: #000;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -346,7 +351,15 @@ h2.section-heading {
     width: 70px;
     object-fit: cover;
 }
-
+.why-choose-us-icons img:nth-child(2){
+    display: none;
+}
+.why-choose-us-cards:hover .why-choose-us-icons img:nth-child(1){
+    display: none;
+    }
+.why-choose-us-cards:hover .why-choose-us-icons img:nth-child(2){
+display: block;
+}
 .why-choose-us-content h4 {
     color: #fff;
     padding: 20px 0;
