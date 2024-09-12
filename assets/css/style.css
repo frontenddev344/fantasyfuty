@@ -174,7 +174,7 @@ h2.section-heading {
     font-size: 40px;
     line-height: 1.5;
     color: #19284f;
-    color: #658cf6;
+    color: #00b3c1;
 }
 
 /* Section Heading CSS End */
@@ -320,7 +320,7 @@ h2.section-heading {
 
 /* How We Compare CSS Start */
 .how-we-compare-section {
-    background-color: #e1e5ef;
+    background-color: #def9fb;
 }
 
 .how-we-compare-cards {
@@ -492,7 +492,7 @@ input.pages-newsletter-input {
 }
 
 .accordion-button:not(.collapsed) {
-    background: #3252a2;
+    background: #658cf6;
     box-shadow: none;
     color: #fff;
 }
@@ -510,7 +510,7 @@ input.pages-newsletter-input {
 .accordion-button {
     color: #fff;
     font-weight: 500;
-    background: #3252a2;
+    background: #658cf6;
     transition: 0.3s all ease;
 }
 .accordion-button:hover {
@@ -547,10 +547,12 @@ input.pages-newsletter-input {
 /* Pages FAQ Section CSS End  */
 
 /* Disclaimer Section CSS Start */
+.disclaimer{
+    background-color: #def9fb;
+}
 .disclaimer-wrapper {
     max-width: 1150px;
     margin: 0 auto;
-    box-shadow: #fff 0px 6px 15px;
     padding: 0px 25px;
     border-radius: 10px;
     overflow: hidden;
@@ -558,7 +560,7 @@ input.pages-newsletter-input {
 
 .disclaimer-wrapper h3 {
     font-size: 30px;
-    color: #19284f;
+    color: #00b3c1;
 }
 
 .disclaimer-wrapper p {
@@ -574,6 +576,7 @@ input.pages-newsletter-input {
     font-weight: 600;
     box-shadow:#00b3c1 0px 3px 6px;
     margin: 15px 0;
+    color: #00b3c1;
 }
 
 /* Disclaimer Section CSS End */
@@ -909,6 +912,35 @@ margin-top: 15px;
 }
 .blog-cards-title h5{
     color:#fff ;
+}
+.blog-banner-image{
+    height: 400px;
+}
+.blog-banner-text h3 {
+    font-size: 35px;
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+}
+.blog-pages-content-section{
+    background-image: url("../images/blog-pages-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0 0 0/30%);
+    background-blend-mode: multiply;
+}
+
+span.heading-like{
+    color: #000;
+    font-weight: 700;
+    font-size: 20px;
+}
+.blog-pages-group {
+    margin-bottom: 15px;
+}
+.blog-pages-group p{
+font-weight: 500;
+color:#fff;
 }
 
 /* Pages Cards CSS End */
