@@ -269,7 +269,7 @@ h2.section-heading {
 
 .home-page-category-cards:hover {
     transform: translateY(-5px);
-    box-shadow: #658cf6 0px 7px 10px, #658cf6 0px 7px 12px;
+    box-shadow: #00b3c1 0px 7px 10px, #00b3c1 0px 7px 12px;
 }
 
 .home-page-category-cards-image {
@@ -342,7 +342,7 @@ h2.section-heading {
 
 .how-we-compare-cards:hover {
     background-position: 0 0;
-    box-shadow: #3d6adb 0px 6px 15px;
+    box-shadow: #00b3c1 0px 6px 15px;
     transform: translateY(-1px);
 
 }
@@ -820,10 +820,11 @@ font-weight: 500;
 padding-right:10px;
 }
 .cards-pro-text {
-    border-right: 3px solid #658cf6;
+    border-right: 3px solid #00b3c1;
 }
 .cards-text h3{
     margin-bottom: 10px;
+    color: #658cf6;
 }
 .butn {
     display: inline-block;
