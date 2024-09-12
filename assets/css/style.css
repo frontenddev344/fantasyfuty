@@ -498,6 +498,7 @@ input.pages-newsletter-input {
 
 .accordion-button:not(.collapsed) {
     background: #658cf6;
+    background: #280B70;
     box-shadow: none;
     color: #fff;
 }
@@ -516,6 +517,7 @@ input.pages-newsletter-input {
     color: #fff;
     font-weight: 500;
     background: #658cf6;
+    background: #280B70;
     transition: 0.3s all ease;
 }
 .accordion-button:hover {
