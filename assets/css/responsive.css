@@ -158,7 +158,9 @@
     .disclaimer-wrapper h3 {
         font-size: 26px;
     }
-
+    .footer-items h3 {
+        font-size: 23px;
+     }
 
 }
 
@@ -238,6 +240,16 @@
     .disclaimer-wrapper p {
         font-size: 14px;
     }
+    .footer-items{
+        width: 50%;
+    }
+    .logo-bottom{
+        width:100%;
+        margin-bottom: 30px;
+    }
+    .footer-items h3 {
+        font-size: 24px;
+     }
 
 
 }
@@ -291,6 +303,17 @@
     .pages-newsletter-submit-button {
         padding: 10px 20px;
         font-size: 14px;
+    }
+    .footer-items {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .footer-items:last-child {
+        margin-bottom: 0;
+    }
+    .footer-items h3 {
+        text-align: center;
     }
  
 
