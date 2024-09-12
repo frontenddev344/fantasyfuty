@@ -331,7 +331,8 @@ h2.section-heading {
 
 .how-we-compare-cards:hover {
     background-position: 0 0;
-    box-shadow: #fff 0px 6px 15px;
+    box-shadow: #3d6adb 0px 6px 15px;
+    transform: translateY(-1px);
     
 }
 .how-we-compare-cards:hover .how-we-compare-content h4{
@@ -448,5 +449,263 @@ input.pages-newsletter-input {
 }
 
 /* Home Page newsletter CSS End */
+
+
+/* Pages FAQ Section CSS Start  */
+.pages-accordion-wrapper h2 {
+    color: #000;
+}
+.accordion-button::after {
+    flex-shrink: 0;
+    content: "\f067";
+    font-family: "FontAwesome";
+    background-image: none;
+    background-repeat: no-repeat;
+    min-width: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.accordion-button:not(.collapsed)::after {
+    content: "\f068";
+    font-family: "FontAwesome";
+    background-image: none;
+    transform: rotate(0);
+    background: transparent;
+}
+
+.accordion {
+    --bs-accordion-btn-icon-transform: rotate(0);
+}
+
+.accordion-button:not(.collapsed) {
+    background: #19284f;
+    box-shadow: none;
+    color: #fff;
+}
+
+.accordion-item:first-of-type>.accordion-header .accordion-button {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.accordion-item:last-of-type>.accordion-header .accordion-button.collapsed {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.accordion-button {
+    color: #fff;
+    font-weight: 500;
+    background: #19284f;
+}
+
+.accordion {
+    --bs-accordion-border-color: none;
+}
+
+.accordion-item {
+    margin-bottom: 12px;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-item:last-of-type {
+    border-radius: 0;
+}
+
+.accordion-item:first-of-type {
+    border-radius: 0;
+}
+
+.accordion-body {
+    background-color: #fff;
+    font-weight: 500;
+    color: #545556;
+    box-shadow:#19284f 0px 2px 10px;
+}
+
+/* Pages FAQ Section CSS End  */
+
+/* Disclaimer Section CSS Start */
+.disclaimer-wrapper{
+    max-width: 1150px;
+    margin: 0 auto;
+    box-shadow: #fff 0px 6px 15px;
+    padding:0px 25px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.disclaimer-wrapper h3{
+    font-size: 30px;
+    color: #19284f;
+}
+.disclaimer-wrapper p{
+margin: 15px 0;
+font-weight: 500;
+}
+/* Disclaimer Section CSS End */
+
+/* Footer CSS Start */
+.footer {
+background-image: url(../images/footer-bg.jpg);
+background-color: rgba(0 0 0/70%);
+background-blend-mode: multiply;
+background-position: center;
+background-attachment: fixed;
+    width: 100%;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    overflow: hidden;
+    width: 100%;
+}
+.logo-bottom img {
+    width: 100%;
+}
+.lg-btm{
+     width: 100%;
+}
+.lg-btm a {
+    width: 100%;
+}
+.lg-btm a img {
+    width: 100%;
+    object-fit: cover;
+    max-width: 300px;
+}
+
+.logo-bottom{
+    width: 35%;
+}
+.footer-links{
+    width: 30%;
+}
+.footer-connect{
+    width: 35%;
+}
+
+.footer-items h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #fff;
+    text-align: center;
+}
+.footer-links h3 {
+    text-align: left;
+}
+.footer-items{
+    width: 30%;
+}
+
+.footer-items .social-icons {
+    width: 100%;
+    margin: 15px auto;
+}
+
+
+.footer-items ul li a {
+    padding: 3px 0;
+    color: #fff;
+}
+
+.footer .footer-items ul li a {
+    transition: 0.6s all ease;
+    font-size: 17px;
+    position: relative;
+}
+
+
+.footer .footer-items ul li a:after {
+    display: block;
+    content: '';
+    border-bottom: solid 1px #fff;
+    transition: all 300ms ease-in-out;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 0%;
+}
+.footer .footer-items ul li a:hover{
+    transform: translateX(3px);
+}
+
+.footer-icons {
+    min-width: 20px;
+    margin-right: 6px;
+}
+
+
+ .footer-items ul li a:hover:after {
+    width: 100%;
+}
+
+
+
+.copyright {
+    padding: 15px 0;
+    text-align: center;
+    margin: auto 0;
+    border-top: 1px solid #fff;
+}
+
+.copyright p {
+    color: #fff;
+    text-align: center;
+}
+
+/* Footer CSS End */
+
+
+/* Social Icons CSS Start */
+.social-icons {
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+
+}
+
+.social-icons i {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 17px;
+    background-color: #fffcfc;
+    color: #000;
+    line-height: normal;
+    margin: 0 5px;
+    transition: 0.3s all ease-in-out;
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+
+}
+
+.social-icons i:hover {
+    transform: translateY(-2px);
+    color: #fff;
+}
+.social-icons i.facebook:hover {
+    background-color:#116af9 ;
+}
+.social-icons i.twitter:hover {
+    background-color:#1da1f2 ;
+}
+.social-icons i.instagram:hover {
+    background-color:#da1090 ;
+}
+/* Social Icons CSS End */
+
 
 
