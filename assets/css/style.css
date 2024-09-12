@@ -777,6 +777,7 @@ input.pages-newsletter-input {
     padding: 20px;
     position: relative;
     transition: 0.3s all ease-in-out;
+    margin-bottom: 35px;
 }
 .pages-cards:hover{
     box-shadow: #00b3c1 0px 10px 15px;  
