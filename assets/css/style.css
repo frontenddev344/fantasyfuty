@@ -187,7 +187,7 @@ h2.section-heading {
 }
 
 .banner-image {
-    height: 570px;
+    height: 650px;
     width: 100%;
 }
 
@@ -736,5 +736,21 @@ input.pages-newsletter-input {
     background-color: #da1090;
     box-shadow: #fff 0px 2px 4px;
 }
-
 /* Social Icons CSS End */
+
+
+/* Pages CSS Start */
+.pages-banner-image{
+    height: 520px;
+}
+
+.banner-text h1 {
+    font-size: 55px;
+}
+
+.banner-text h3 {
+    font-size: 25px;
+}
+
+
+/* Pages CSS End */
