@@ -860,5 +860,39 @@ margin-top: 15px;
     background-image: url("../images/soccer-cards-bg.jpg");
 }
 
+.pages-blog-cards {
+    padding: 15px;
+    background-color:#658cf6;
+    overflow: hidden;
+    position: relative;
+    height: 400px;
+}
+.pages-blog-cards:hover .blog-cards-btn{
+    bottom: 10%;
+}
+
+.blog-cards-image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+.blog-cards-image img{
+    width: 100%;
+    height: 100%;
+ object-fit: cover;
+}
+.blog-cards-btn {
+    position: absolute;
+    bottom: -100px;
+    left: 50px;
+    transition: 0.5s all ease-in-out;
+}
+.blog-btn:hover{
+    box-shadow: #00b3c1 0px 7px 15px 0px;
+    background-color: #fff;
+    color: #00b3c1;  
+}
+
 /* Pages Cards CSS End */
 /* Pages CSS End */
