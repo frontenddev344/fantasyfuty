@@ -351,6 +351,7 @@ h2.section-heading {
 .how-we-compare-cards:hover {
     background-position: 0 0;
     box-shadow: #00b3c1 0px 6px 15px;
+    box-shadow: #cf2d5e 0px 6px 15px;
     transform: translateY(-1px);
 
 }
