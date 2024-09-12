@@ -253,13 +253,17 @@ h2.section-heading {
 /* Home Page Intro Text CSS End */
 
 /* Home Page Category Cards CSS Start */
+
+/* .home-page-category-cards-wrapper{
+    overflow: hidden;
+} */
+
 .home-page-category-cards {
     height: 400px;
     overflow: hidden;
     position: relative;
     transition: 0.3s all ease-out;
 }
-
 .home-page-category-cards:hover {
     transform: translateY(-1px);
     box-shadow: #19284f 0px 7px 10px, #19284f 0px 7px 12px;
@@ -680,7 +684,7 @@ background-attachment: fixed;
     height: 40px;
     border-radius: 10px;
     font-size: 17px;
-    background-color: #fffcfc;
+    background-color: #6e95f9;
     color: #000;
     line-height: normal;
     margin: 0 5px;
