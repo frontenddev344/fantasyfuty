@@ -511,6 +511,10 @@ input.pages-newsletter-input {
     color: #fff;
     font-weight: 500;
     background: #3252a2;
+    transition: 0.3s all ease;
+}
+.accordion-button:hover {
+    box-shadow:#00b3c1 0px 3px 6px;
 }
 
 .accordion {
