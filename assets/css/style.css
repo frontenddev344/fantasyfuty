@@ -76,6 +76,9 @@ img {
     padding: 0 15px;
 }
 
+/* colors
+#ca5cdd */
+
 /* Global CSS End */
 
 /*Header CSS Start */
@@ -95,6 +98,7 @@ img {
     margin: 0 auto;
     z-index: 9999;
     background-color: #19284f;
+    background-color: #658cf6;
     transition: all 0.3s ease-in-out;
 }
 
@@ -170,6 +174,7 @@ h2.section-heading {
     font-size: 40px;
     line-height: 1.5;
     color: #19284f;
+    color: #658cf6;
 }
 
 /* Section Heading CSS End */
@@ -225,15 +230,13 @@ h2.section-heading {
     margin: 15px auto;
 }
   
-
-
-
 /* Banner Section  CSS End */
 
 
 /* Home Page Intro Text CSS Start */
 .pages-intro-text-section {
     background-color: #19284f;
+    background-color: #658cf6;
 }
 .pages-intro-text-wrapper {
     max-width: 1150px;
@@ -265,7 +268,7 @@ h2.section-heading {
 
 .home-page-category-cards:hover {
     transform: translateY(-5px);
-    box-shadow: #19284f 0px 7px 10px, #19284f 0px 7px 12px;
+    box-shadow: #658cf6 0px 7px 10px,#658cf6 0px 7px 12px;
 }
 
 .home-page-category-cards-image {
@@ -321,7 +324,7 @@ h2.section-heading {
 
 .how-we-compare-cards {
     padding: 20px;
-    background: #19284f;
+    background: #658cf6;
     box-shadow: #fff 0px 6px 15px;
     background-image: linear-gradient(to left,
             transparent,
@@ -333,7 +336,7 @@ h2.section-heading {
     border-radius: 10px;
     overflow: hidden;
     min-height: 230px;
-    border: 1px solid #19284f;
+    border: 1px solid #658cf6;
 }
 
 .how-we-compare-cards:hover {
@@ -430,7 +433,7 @@ input.pages-newsletter-input {
 
 .pages-newsletter-submit-button {
     display: inline-block;
-    background: #d2a517;
+    background: #00b3c1;
     padding: 13px 25px;
     font-size: 16px;
     color: #fff;
@@ -488,7 +491,7 @@ input.pages-newsletter-input {
 }
 
 .accordion-button:not(.collapsed) {
-    background: #19284f;
+    background: #3252a2;
     box-shadow: none;
     color: #fff;
 }
@@ -506,7 +509,7 @@ input.pages-newsletter-input {
 .accordion-button {
     color: #fff;
     font-weight: 500;
-    background: #19284f;
+    background: #3252a2;
 }
 
 .accordion {
@@ -586,7 +589,7 @@ input.pages-newsletter-input {
     padding-bottom: 30px;
     overflow: hidden;
     width: 100%;
-    max-width: 1000px;
+    max-width: 1000x;
 }
 
 .logo-bottom img {
