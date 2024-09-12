@@ -347,11 +347,11 @@ h2.section-heading {
 }
 
 .how-we-compare-cards:hover .how-we-compare-content h4 {
-    color: #19284f;
+    color: #658cf6;
 }
 
 .how-we-compare-cards:hover .how-we-compare-content p {
-    color: #19284f;
+    color: #658cf6;
 }
 
 .how-we-compare-cards-wrapper>p {
@@ -566,7 +566,7 @@ input.pages-newsletter-input {
     display: inline-block;
     border-radius: 10px;
     font-weight: 600;
-    box-shadow: #19284f 0px 3px 8px;
+    box-shadow: #658cf6 0px 3px 6px;
     margin: 15px 0; 
 }
 /* Disclaimer Section CSS End */
