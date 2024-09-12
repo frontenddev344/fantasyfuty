@@ -178,6 +178,7 @@ h2.section-heading {
     line-height: 1.5;
     color: #19284f;
     color: #00b3c1;
+    color: #cf2d5e;
 }
 
 /* Section Heading CSS End */
@@ -274,6 +275,8 @@ h2.section-heading {
 .home-page-category-cards:hover {
     transform: translateY(-5px);
     box-shadow: #00b3c1 0px 7px 10px, #00b3c1 0px 7px 12px;
+        box-shadow:    #cf2d5e 0px 7px 10px,    #cf2d5e 0px 7px 12px;
+ 
 }
 
 .home-page-category-cards-image {
@@ -440,6 +443,7 @@ input.pages-newsletter-input {
 .pages-newsletter-submit-button {
     display: inline-block;
     background: #00b3c1;
+    background:    #cf2d5e;
     padding: 13px 25px;
     font-size: 16px;
     color: #fff;
@@ -522,6 +526,8 @@ input.pages-newsletter-input {
 }
 .accordion-button:hover {
     box-shadow:#00b3c1 0px 3px 6px;
+    box-shadow:#cf2d5e 0px 3px 6px;
+   
 }
 
 .accordion {
