@@ -574,6 +574,7 @@ input.pages-newsletter-input {
 .disclaimer-wrapper h3 {
     font-size: 30px;
     color: #00b3c1;
+    color: #cf2d5e;
 }
 
 .disclaimer-wrapper p {
@@ -588,8 +589,10 @@ input.pages-newsletter-input {
     border-radius: 10px;
     font-weight: 600;
     box-shadow:#00b3c1 0px 3px 6px;
+    box-shadow:#cf2d5e 0px 3px 6px;
     margin: 15px 0;
     color: #00b3c1;
+    color: #cf2d5e;
 }
 
 /* Disclaimer Section CSS End */
@@ -729,6 +732,7 @@ input.pages-newsletter-input {
     border-radius: 10px;
     font-size: 17px;
     background-color: #6e95f9;
+    background-color: #cf2d5e;
     color: #000;
     line-height: normal;
     margin: 0 5px;
@@ -800,7 +804,8 @@ input.pages-newsletter-input {
     margin-bottom: 35px;
 }
 .pages-cards:hover{
-    box-shadow: #00b3c1 0px 10px 15px;  
+    box-shadow: #00b3c1 0px 10px 15px;
+    box-shadow: #cf2d5e 0px 10px 15px;
     transform: translateY(-5px);
 }
 
@@ -829,6 +834,7 @@ input.pages-newsletter-input {
     padding: 10px;
     border-radius: 10px;
     color: #00b3c1;
+    color: #cf2d5e;
 }
 .cards-img-text h3{
     font-size: 24px;
@@ -842,14 +848,17 @@ padding-right:10px;
 }
 .cards-pro-text {
     border-right: 3px solid #00b3c1;
+    border-right: 3px solid #cf2d5e;
 }
 .cards-text h3{
     margin-bottom: 10px;
     color: #658cf6;
+    color: #cf2d5e;
 }
 .butn {
     display: inline-block;
     background: #00b3c1;
+    background: #cf2d5e;
     padding: 13px 25px;
     font-size: 16px;
     color: #fff;
@@ -870,6 +879,11 @@ margin-top: 15px;
     box-shadow: #00b3c1 0px 7px 15px 0px;
     background-color: #fff;
     color: #00b3c1;
+
+    box-shadow: #cf2d5e 0px 7px 15px 0px;
+    background-color: #fff;
+    color: #cf2d5e;
+
 }
 
 #soccer {
@@ -879,6 +893,8 @@ margin-top: 15px;
 .pages-blog-cards {
     padding: 15px;
     background-color:#658cf6;
+    background-color: #280B70;
+
     overflow: hidden;
     position: relative;
     height: 400px;
@@ -908,6 +924,7 @@ margin-top: 15px;
     box-shadow: #fff 0px 7px 15px 0px;
     background-color: #fff;
     color: #00b3c1;  
+    color: #cf2d5e;
 }
 .blog-cards-title {
     height: 100%;
