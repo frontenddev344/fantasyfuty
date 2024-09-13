@@ -999,7 +999,7 @@ color:#fff;
     }
 
 
-.privacy-policy-group {
+.privacy-policy-group ,.terms-conditions-group {
     margin-bottom: 30px;
     padding: 20px;
   }
