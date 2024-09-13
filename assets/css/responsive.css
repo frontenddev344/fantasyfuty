@@ -5,6 +5,7 @@
     .home-page-category-cards {
         height: 320px;
     }
+
     .how-we-compare-cards {
         min-height: 265px;
     }
@@ -43,6 +44,7 @@
     .how-we-compare-content p {
         font-size: 15px;
     }
+
     .pages-newsletter-wrapper h3 {
         max-width: 655px;
     }
@@ -55,18 +57,46 @@
     .pages-newsletter-submit-button {
         padding: 12px 25px;
     }
+
     .accordion-button {
         font-size: 15px;
     }
+
     .accordion-body {
         font-size: 15px;
     }
+
     .disclaimer-wrapper h3 {
         font-size: 28px;
     }
+
     .disclaimer-wrapper p {
         font-size: 15px;
     }
+    /* Pages CSS Start */
+    
+    .cards-text ul li p {
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .cards-img-text h3 {
+        font-size: 21px;
+        line-height: 1.5;
+    }
+    .cards-img-text {
+        text-align: center;
+    }
+
+    .cards-image {
+        height: 340px;
+    }  
+   
+    .butn.play-now-btn {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+       /* Pages CSS End*/
+ 
 }
 
 @media screen and (max-width:767px) {
@@ -132,9 +162,11 @@
         height: 60px;
         width: 60px;
     }
+
     .how-we-compare-cards {
         min-height: 305px;
     }
+
     .pages-newsletter-wrapper h3 {
         max-width: 510px;
     }
@@ -149,20 +181,66 @@
         padding: 11px 25px;
         font-size: 15px;
     }
+
     .accordion-button {
         font-size: 14px;
     }
+
     .accordion-body {
         font-size: 14px;
     }
+
     .disclaimer-wrapper h3 {
         font-size: 26px;
     }
+
     .footer-items h3 {
         font-size: 23px;
-     }
+    }
+      
+    /* Pages CSS Start */
+    
+    .cards-text ul li p {
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .cards-img-text h3 {
+        font-size: 21px;
+        line-height: 1.5;
+    }
+    .cards-img-text {
+        text-align: center;
+    }
+
+    .cards-image {
+        height: 290px;
+    }
+
+    .cards-pro-text,.cards-cons-text {
+        padding: 15px 5px;
+    }  
+
+    .butn.play-now-btn {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+    .butn.play-now-btn {
+         margin-top: 0;
+    }
+    /* Pages CSS End*/
+ 
 
 }
+@media screen and (min-width:575px) and  (max-width:576px){
+    .cards-pro-text {
+        border-right: none;
+        border-bottom: 3px solid #cf2d5e;
+    } 
+    .cards-cons-text,.cards-pro-text {
+        padding: 15px 0;
+    }
+}
+
 
 @media screen and (max-width:575px) {
     .banner-image {
@@ -206,12 +284,13 @@
     .how-we-compare-cards {
         min-height: 0;
     }
+
     .pages-newsletter-wrapper h3 {
         font-size: 23px;
         max-width: 450px;
         margin: 0 auto;
     }
-    
+
     input.pages-newsletter-input {
         width: 80%;
         font-size: 15px;
@@ -225,32 +304,86 @@
         border-radius: 0px;
         margin-top: 10px;
     }
+
     .accordion-button {
         font-size: 13px;
     }
+
     .accordion-body {
         font-size: 13px;
     }
+
     .disclaimer-wrapper {
         padding: 0px 5px;
     }
+
     .disclaimer-wrapper h3 {
         font-size: 24px;
     }
+
     .disclaimer-wrapper p {
         font-size: 14px;
     }
-    .footer-items{
+
+    .footer-items {
         width: 50%;
     }
-    .logo-bottom{
-        width:100%;
+
+    .logo-bottom {
+        width: 100%;
         margin-bottom: 30px;
     }
+    .footer .footer-items ul li a {
+        font-size: 16px;
+       }
     .footer-items h3 {
         font-size: 24px;
-     }
+    }
+    .copyright p {
+        font-weight: 600;
+        font-size: 14px;
+    }
 
+
+    /* Pages CSS Start */
+    
+    .cards-img-text h3 {
+        font-size: 21px;
+        line-height: 1.5;
+    }
+
+    .cards-image {
+        height: 270px;
+    }
+
+    .cards-pro-text,.cards-cons-text {
+        padding: 15px 5px;
+    }
+
+    .cards-text h3 {
+        font-size: 21px;
+    }
+
+    .cards-pro-text {
+        border-right: none;
+        border-bottom: 3px solid #cf2d5e;
+    }
+
+    .cards-cons-text,.cards-pro-text {
+        padding: 15px 0;
+    }
+
+    .butn.play-now-btn {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+    .butn.play-now-btn {
+         margin-top: 0;
+    }
+    .blog-pages-group p {
+        font-size: 15px;
+    }
+    /* Pages CSS End*/
 
 }
 
@@ -288,13 +421,16 @@
     .how-we-compare-content h4 {
         font-size: 19px;
     }
+
     .pages-newsletter-wrapper {
         padding: 10px 0;
     }
+
     .pages-newsletter-wrapper h3 {
         font-size: 17px;
         padding: 0;
     }
+
     input.pages-newsletter-input {
         width: 90%;
         font-size: 14px;
@@ -304,18 +440,50 @@
         padding: 10px 20px;
         font-size: 14px;
     }
+
     .footer-items {
         width: 100%;
         text-align: center;
         margin-bottom: 30px;
     }
+
     .footer-items:last-child {
         margin-bottom: 0;
     }
+
     .footer-items h3 {
         text-align: center;
     }
- 
+    .copyright p {
+        font-size: 13px;
+    }
+    .footer .footer-items ul li a {
+        font-size: 15px;
+       }
 
+    /* Pages CSS Start */
+    .cards-text ul li p {
+        font-size: 14px;
+    }
+    .cards-img-text h3 {
+        font-size: 16px;
+        line-height: 1.5;
+    }
 
+    .cards-image {
+        height: 230px;
+    }
+
+      .cards-text h3 {
+        font-size: 19px;
+    }
+    .butn.play-now-btn {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+    .blog-pages-group p {
+        font-size: 14px;
+    }
+
+    /* Pages CSS End*/
 }

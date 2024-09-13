@@ -31,11 +31,12 @@ h6 {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     margin: 0;
+    line-height: 1.5;
 }
 
 
 p {
-    line-height: 1.7;
+    line-height: 1.5;
     padding: 0;
     margin: 0;
 }
@@ -813,8 +814,10 @@ input.pages-newsletter-input {
 .pages-cards-wrapper h2 {
     color: #fff;
 }
-.cards-image-text{
+.cards-image-text {
     position: relative;
+    height: 100%;
+    width: 100%;
 }
 .cards-image {
     width: 100%;
@@ -831,11 +834,12 @@ input.pages-newsletter-input {
     position: absolute;
     bottom: 5%;
     background: #fff;
-    left: 15px;
+    left: 10px;
     padding: 10px;
     border-radius: 10px;
-    color: #00b3c1;
-    color: #cf2d5e;
+     color: #cf2d5e;
+    right: 10px;
+    text-align: center;
 }
 .cards-img-text h3{
     font-size: 24px;
