@@ -115,6 +115,9 @@
 
     /* Other Pages CSS Start */
     .privacy-policy-group h3, .terms-conditions-group h3 {
+        font-size: 27px;
+    }
+    .privacy-policy-group h3, .terms-conditions-group h3 {
         font-size: 16px;
     }
 
@@ -271,7 +274,9 @@
     /* Pages CSS End*/
 
     /* Other Pages CSS Start */
-
+    .privacy-policy-group h3, .terms-conditions-group h3 {
+        font-size: 25px;
+    }
 
 /* Other Pages CSS End */
 
@@ -453,6 +458,9 @@
     /* Pages CSS End*/
 
 /* Other Pages CSS Start */
+.privacy-policy-group h3, .terms-conditions-group h3 {
+    font-size: 23px;
+}
 .privacy-policy-group p, .terms-conditions-group p {
     font-size: 15px;
 }
@@ -545,6 +553,9 @@
     .disclaimer-wrapper h4 {
         font-size: 16px;
     }
+    .lg-btm a img {
+        max-width: 240px;
+    }
 
     /* Pages CSS Start */
     .cards-text ul li p {
@@ -589,8 +600,12 @@
 
 /* Other Pages CSS Start */
 .privacy-policy-group h3, .terms-conditions-group h3 {
-    font-size: 22px;
+    font-size: 20px;
 }
+.privacy-policy-group h4, .terms-conditions-group h4 {
+    font-size: 17px;
+}
+
 .privacy-policy-group p, .terms-conditions-group p {
     font-size: 14px;
 }
