@@ -907,7 +907,6 @@ margin-top: 15px;
     bottom: 10%;
 }
 .pages-blog-cards:hover{
-    box-shadow: #cf2d5e 0px 7px 15px 0px;
     transform: translateY(-3px);
 }
 
