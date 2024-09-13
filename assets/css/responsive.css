@@ -705,7 +705,7 @@
   }
 
   .button {
-    width: calc(80% / 2 - 10px);
+    width: calc(100% / 2 - 10px);
     font-size: 13px;
   }
 
