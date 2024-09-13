@@ -127,7 +127,7 @@ img {
     text-decoration: none;
     text-transform: capitalize;
     line-height: normal;
-    font-weight: 500;
+    font-weight: 600;
     position: relative;
     color:#cf2d5e
 }
@@ -160,7 +160,7 @@ img {
 
 .menu-icon {
     display: none;
-    color: #fff;
+    color: #cf2d5e;
     width: 30px;
     text-align: right;
     cursor: pointer;

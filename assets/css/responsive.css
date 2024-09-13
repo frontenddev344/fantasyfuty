@@ -73,6 +73,10 @@
     .disclaimer-wrapper p {
         font-size: 15px;
     }
+    .disclaimer-wrapper h4 {
+        font-size: 19px;
+     }
+
     /* Pages CSS Start */
     
     .cards-text ul li p {
@@ -100,6 +104,11 @@
 }
 
 @media screen and (max-width:767px) {
+    .logo img {
+        max-width: 280px;
+  }
+
+
     .main-navbar {
         position: fixed;
         top: 0;
@@ -197,6 +206,10 @@
     .footer-items h3 {
         font-size: 23px;
     }
+    .disclaimer-wrapper h4 {
+        font-size: 18px;
+     }
+
       
     /* Pages CSS Start */
     
@@ -243,6 +256,10 @@
 
 
 @media screen and (max-width:575px) {
+    .logo img {
+        max-width: 260px;
+  }
+
     .banner-image {
         height: 370px;
     }
@@ -343,6 +360,10 @@
         font-weight: 600;
         font-size: 14px;
     }
+    .disclaimer-wrapper h4 {
+        font-size: 17px;
+     }
+
 
 
     /* Pages CSS Start */
@@ -388,6 +409,9 @@
 }
 
 @media screen and (max-width:480px) {
+    .logo img {
+          max-width: 240px;
+    }
     .banner-image {
         height: 300px;
     }
@@ -460,6 +484,9 @@
     .footer .footer-items ul li a {
         font-size: 15px;
        }
+       .disclaimer-wrapper h4 {
+        font-size: 16px;
+     }
 
     /* Pages CSS Start */
     .cards-text ul li p {
