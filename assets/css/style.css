@@ -99,10 +99,8 @@ img {
     width: 100%;
     margin: 0 auto;
     z-index: 9999;
-    background-color: #19284f;
-    background-color: #658cf6;
-   background-color: #280B70;
     transition: all 0.3s ease-in-out;
+    background-color: #fff;
 }
 
 .main-navbar ul {
@@ -123,7 +121,6 @@ img {
 .main-navbar ul li a {
     padding: 10px;
     display: inline-block;
-    color: #fff;
     text-align: center;
     cursor: pointer;
     text-decoration: none;
@@ -131,12 +128,13 @@ img {
     line-height: normal;
     font-weight: 500;
     position: relative;
+    color:#cf2d5e
 }
 
 .main-navbar ul li a:after {
     display: block;
     content: '';
-    border-bottom: solid 1px #fff;
+    border-bottom: solid 1px #cf2d5e;
     transition: all 300ms ease-in-out;
     position: absolute;
     left: 0;
@@ -149,9 +147,9 @@ img {
     width: 100%;
 }
 
-.main-navbar ul li a.active {
+/* .main-navbar ul li a.active {
     color: #fff;
-}
+} */
 
 
 
