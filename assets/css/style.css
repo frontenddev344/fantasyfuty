@@ -1001,7 +1001,7 @@ color:#fff;
 
 .privacy-policy-group ,.terms-conditions-group {
     margin-bottom: 30px;
-    padding: 20px;
+    padding:0 10px;
   }
   .privacy-policy-group:last-child {
     margin-bottom: 0px;
