@@ -511,6 +511,12 @@
     .blog-pages-group p {
         font-size: 14px;
     }
-
+    .pages-blog-cards {
+        padding: 7px;
+        height: 230px;
+    }
+    .blog-cards-title h5 {
+        font-size: 18px;
+    }
     /* Pages CSS End*/
 }
