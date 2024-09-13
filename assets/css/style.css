@@ -963,10 +963,10 @@ margin-top: 15px;
     margin: 0 auto;
 }
 .blog-pages-content-section{
-    background-image: url("../images/cards-bg.jpg");
+    background-image: url("../images/blog-pages-bg1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(0 0 0/40%);
+    background-color: rgba(0 0 0/60%);
     background-blend-mode: multiply;
 }
 
