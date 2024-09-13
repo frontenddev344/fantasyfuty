@@ -1007,108 +1007,59 @@ color:#fff;
     margin-bottom: 0px;
   }
   
-  .privacy-policy-group h3 {
+  .privacy-policy-group h3 ,  .terms-conditions-group h3 {
     font-size: 30px;
     margin-bottom: 10px;
     color: #cf2d5e;
   }
   
-  .privacy-policy-group h4 {
+  .privacy-policy-group h4 ,  .terms-conditions-group h4 {
     font-size: 18px;
     margin-bottom: 10px;
     color: #fff;
   }
   
-  .privacy-policy-group p {
+  .privacy-policy-group p ,  .terms-conditions-group p {
     margin-bottom: 10px;
     font-size: 17px;
     font-weight: 500;
     color: #fff;
   }
   
-  .privacy-policy-group ul li {
+  .privacy-policy-group ul li ,  .terms-conditions-group ul li {
     margin-bottom: 10px;
     list-style-type: disc;
     margin-left: 17px;
     color: #ffff;
   }
-  .privacy-policy-group h3 a
+  .privacy-policy-group h3 a ,  .terms-conditions-group h3 a
   {
     color: #cf2d5e;
     transition: 0.3s all ease-in-out;
   }
-  .privacy-policy-group h3 a:hover
+  .privacy-policy-group h3 a:hover ,  .terms-conditions-group h3 a:hover
   {
     color: red;
     transform: translateX(2px);
   }
   
-  .privacy-policy-group p a {
+  .privacy-policy-group p a  , .terms-conditions-group p a {
     color: #cf2d5e;
     font-weight: 600;
     font-size: 17px;
     transition: 0.3s all ease-in-out;
   }
-  .privacy-policy-group p a:hover
+  .privacy-policy-group p a:hover ,  .terms-conditions-group p a:hover
   {
     color: red;
     transform: translateX(2px);
   }
   
-  .privacy-policy-group ul {
+  .privacy-policy-group ul ,   .terms-conditions-group h3 ul {
     margin: 10px auto;
   }
   
-  /* Privacy Policy CSS End */
+  /* Other Pages CSS End */
   
 
   
-/* Terms and Conditions CSS Start */
-.terms-conditions-group {
-    margin-bottom: 30px;
-    padding: 20px;
-    box-shadow: #6e8eec 0px 7px 29px 0px;
-    border-radius: 10px;
-    overflow: none;
-  }
-  
-  .terms-conditions-group h3 {
-    font-size: 30px;
-    margin-bottom: 10px;
-    color: #6e8eec;
-  }
-  
-  .terms-conditions-group h4 {
-    font-size: 18px;
-    margin: 15px 0;
-  }
-  
-  
-  .terms-conditions-group p {
-    margin-bottom: 10px;
-    font-size: 17px;
-    font-weight: 500;
-    color: #707070;
-  }
-  
-  .terms-conditions-group p a {
-    color: #fff;
-    font-weight: 600;
-    font-size: 17px;
-    transition: 0.2s all ease-in-out;
-  }
-  
-  .terms-conditions-group p a:hover {
-    color: #efcd45;
-    transform: translateX(2px);
-  }
-  .terms-conditions-group ul li{
-    list-style: disc;
-    margin-left: 20px;
-    font-size: 17px;
-    font-weight: 500;
-    margin-bottom: 10px;
-    color: #707070;
-  }
-  
-  /* Terms and Conditions CSS End*/
