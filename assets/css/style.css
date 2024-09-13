@@ -884,7 +884,6 @@ margin-top: 15px;
     box-shadow: #00b3c1 0px 7px 15px 0px;
     background-color: #fff;
     color: #00b3c1;
-
     box-shadow: #cf2d5e 0px 7px 15px 0px;
     background-color: #fff;
     color: #cf2d5e;
@@ -896,16 +895,20 @@ margin-top: 15px;
 }
 
 .pages-blog-cards {
-    padding: 15px;
+    padding: 10px;
     background-color:#658cf6;
-    background-color: #280B70;
-
+    background-color: #cf2d5e;
     overflow: hidden;
     position: relative;
     height: 400px;
+    transition: 0.5s all ease-in-out;
 }
 .pages-blog-cards:hover .blog-cards-btn{
     bottom: 10%;
+}
+.pages-blog-cards:hover{
+    box-shadow: #cf2d5e 0px 7px 15px 0px;
+    transform: translateY(-3px);
 }
 
 .blog-cards-image {
@@ -928,7 +931,6 @@ margin-top: 15px;
 .blog-btn:hover{
     box-shadow: #fff 0px 7px 15px 0px;
     background-color: #fff;
-    color: #00b3c1;  
     color: #cf2d5e;
 }
 .blog-cards-title {
