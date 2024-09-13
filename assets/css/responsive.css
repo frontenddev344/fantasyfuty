@@ -107,6 +107,10 @@
        text-align: center;
        width: 100%;
    }
+   .pages-blog-cards {
+    padding: 5px;
+    height: 350px;
+}
 
     /* Pages CSS End*/
 
@@ -253,6 +257,9 @@
 
     .butn.play-now-btn {
         margin-top: 0;
+    }
+    .pages-blog-cards {
+        height: 320px;
     }
  
     /* Pages CSS End*/
@@ -430,6 +437,9 @@
     .blog-pages-group p {
         font-size: 15px;
     }
+    .pages-blog-cards {
+        height: 270px;
+    }
 
 
     /* Pages CSS End*/
@@ -548,7 +558,6 @@
     }
 
     .pages-blog-cards {
-        padding: 5px;
         height: 230px;
     }
 
@@ -561,6 +570,5 @@
         font-size: 14px;
     }
    
-
     /* Pages CSS End*/
 }
