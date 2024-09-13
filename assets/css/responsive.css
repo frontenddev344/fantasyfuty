@@ -111,8 +111,14 @@
     padding: 5px;
     height: 350px;
 }
-
     /* Pages CSS End*/
+
+    /* Other Pages CSS Start */
+    .privacy-policy-group h3, .terms-conditions-group h3 {
+        font-size: 16px;
+    }
+
+/* Other Pages CSS End */
 
 }
 
@@ -264,6 +270,10 @@
  
     /* Pages CSS End*/
 
+    /* Other Pages CSS Start */
+
+
+/* Other Pages CSS End */
 
 }
 
@@ -440,15 +450,21 @@
     .pages-blog-cards {
         height: 270px;
     }
-
-
     /* Pages CSS End*/
+
+/* Other Pages CSS Start */
+.privacy-policy-group p, .terms-conditions-group p {
+    font-size: 15px;
+}
+
+/* Other Pages CSS End */
+
 
 }
 
 @media screen and (max-width:480px) {
     .logo img {
-        max-width: 230px;
+        max-width: 220px;
     }
 
     .banner-image {
@@ -568,7 +584,16 @@
     .blog-btn {
         padding: 10px 20px;
         font-size: 14px;
-    }
-   
+    }   
     /* Pages CSS End*/
+
+/* Other Pages CSS Start */
+.privacy-policy-group h3, .terms-conditions-group h3 {
+    font-size: 22px;
+}
+.privacy-policy-group p, .terms-conditions-group p {
+    font-size: 14px;
+}
+
+/* Other Pages CSS End */
 }
