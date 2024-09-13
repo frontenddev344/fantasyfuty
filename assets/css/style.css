@@ -340,7 +340,7 @@ h2.section-heading {
             #fff 50%);
     background-position: 100% 0;
     background-size: 200% 100%;
-    transition: all .3s ease-in;
+    transition: all .5s ease-in;
     border-radius: 10px;
     overflow: hidden;
     min-height: 230px;

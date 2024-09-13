@@ -631,6 +631,9 @@
     .lg-btm a img {
         max-width: 240px;
     }
+    .social-icons {
+        justify-content: center;
+    }
 
     /* Pages CSS Start */
     .pages-banner-image {
