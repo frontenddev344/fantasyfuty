@@ -9,6 +9,9 @@
     .how-we-compare-cards {
         min-height: 265px;
     }
+    .button {
+        width: calc(40% / 2 - 10px);
+    }
 }
 
 @media screen and (max-width:991px) {
@@ -535,9 +538,9 @@
   }
 
   .button {
-    width: calc(50% / 2 - 10px);
+    width: calc(70% / 2 - 10px);
     font-size: 13px;
-  }
+}
 
   /* Cookies CSS End */
 
